@@ -1,0 +1,159 @@
+.mediaViewInfo {
+	--web-view-name: page 2;
+	--web-view-id: page_2;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: page_2;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#page_2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	transition: all 0.2s ease-out;
+	--web-animation: fadein 0.2s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	--web-view-name: page 2;
+	--web-view-id: page_2;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_6 {
+	fill: transparent;
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_1_o {
+	fill: rgba(19,219,198,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1_o {
+	filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 126px;
+	left: 461px;
+	top: 495px;
+}
+#Rectangle_2_p {
+	fill: rgba(64,19,219,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_p {
+	filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 126px;
+	left: 1099px;
+	top: 495px;
+}
+#POPUP_1_q {
+	left: 592px;
+	top: 524px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#POPUP_2_r {
+	left: 1230px;
+	top: 524px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_4 {
+	fill: rgba(235,235,235,1);
+	stroke: rgba(72,72,72,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 700px;
+	left: 681px;
+	top: 200px;
+}
+#Ellipse_1 {
+	fill: rgba(191,0,0,1);
+}
+.Ellipse_1 {
+	filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	height: 45px;
+	left: 1131px;
+	top: 220px;
+}
+#Lorem_ipsum_dolor_sit_amet_con {
+	left: 707px;
+	top: 363px;
+	position: absolute;
+	overflow: visible;
+	width: 463px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(22,22,22,1);
+}
